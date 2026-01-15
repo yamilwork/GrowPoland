@@ -36,7 +36,8 @@ export const translations: Record<Language, CorporateData & { restricted: any }>
         name: "Morleyn",
         description: "Líderes en accesorios premium para mascotas. Gestionamos proveedores internacionales para el mercado de retail en el Reino Unido, con expansión a EE.UU., Australia, Alemania y Polonia.",
         market: "Reino Unido (UK)",
-        image: "https://images.unsplash.com/photo-1583337130417-3346a1be7dee?auto=format&fit=crop&q=80&w=800"
+        image: "https://images.unsplash.com/photo-1583337130417-3346a1be7dee?auto=format&fit=crop&q=80&w=800",
+        website: "https://www.morleyn.com/"
       },
       {
         id: "aurelius-apparel",
@@ -177,7 +178,8 @@ export const translations: Record<Language, CorporateData & { restricted: any }>
         name: "Morleyn",
         description: "Leaders in premium pet accessories. We manage international suppliers for the UK retail market.",
         market: "United Kingdom (UK)",
-        image: "https://images.unsplash.com/photo-1583337130417-3346a1be7dee?auto=format&fit=crop&q=80&w=800"
+        image: "https://images.unsplash.com/photo-1583337130417-3346a1be7dee?auto=format&fit=crop&q=80&w=800",
+        website: "https://www.morleyn.com/"
       },
       {
         id: "aurelius-apparel",
@@ -318,7 +320,8 @@ export const translations: Record<Language, CorporateData & { restricted: any }>
         name: "Morleyn",
         description: "Liderzy w akcesoriach premium dla zwierząt. Zarządzamy międzynarodowymi dostawcami.",
         market: "Wielka Brytania (UK)",
-        image: "https://images.unsplash.com/photo-1583337130417-3346a1be7dee?auto=format&fit=crop&q=80&w=800"
+        image: "https://images.unsplash.com/photo-1583337130417-3346a1be7dee?auto=format&fit=crop&q=80&w=800",
+        website: "https://www.morleyn.com/"
       },
       {
         id: "aurelius-apparel",

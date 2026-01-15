@@ -115,7 +115,7 @@ const Home: React.FC<HomeProps> = ({ content, onNavigateToArticle, onNavigateToB
         </div>
       </section>
 
-      {/* Rest of the components remain unchanged but integrated in the full file logic */}
+      {/* Stats Section */}
       <section className="bg-white pb-12 pt-12 md:py-12 md:-mt-16 relative z-20 container mx-auto px-6">
         <div className="grid grid-cols-2 md:grid-cols-4 gap-8 bg-slate-900 rounded-[2rem] shadow-2xl p-8 md:p-12 border border-slate-800">
           {content.stats.map((stat, idx) => (
@@ -202,12 +202,24 @@ const Home: React.FC<HomeProps> = ({ content, onNavigateToArticle, onNavigateToB
                   <p className="text-slate-500 text-sm leading-relaxed mb-8">
                     {brand.description}
                   </p>
-                  <button 
-                    onClick={() => onNavigateToBrand(brand.id)}
-                    className="text-slate-900 text-[10px] font-black uppercase tracking-[0.2em] border-b-2 border-red-600 pb-1 hover:text-red-600 hover:border-slate-900 transition-all"
-                  >
-                    {content.brandsSection.viewDetails} →
-                  </button>
+                  <div className="flex items-center space-x-6">
+                    <button 
+                      onClick={() => onNavigateToBrand(brand.id)}
+                      className="text-slate-900 text-[10px] font-black uppercase tracking-[0.2em] border-b-2 border-red-600 pb-1 hover:text-red-600 hover:border-slate-900 transition-all"
+                    >
+                      {content.brandsSection.viewDetails} →
+                    </button>
+                    {brand.website && (
+                      <a 
+                        href={brand.website}
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        className="text-slate-400 text-[9px] font-black uppercase tracking-[0.2em] hover:text-red-600 transition-all flex items-center"
+                      >
+                        Official Site <svg className="w-3 h-3 ml-1" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14"></path></svg>
+                      </a>
+                    )}
+                  </div>
                 </div>
               </div>
             ))}

@@ -5,6 +5,7 @@ export interface Brand {
   description: string;
   market: string;
   image: string;
+  website?: string;
 }
 
 export interface BlogPost {

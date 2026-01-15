@@ -59,10 +59,20 @@ const BrandDetail: React.FC<BrandDetailProps> = ({ brandId, onBack, content, lan
               </div>
             </div>
 
-            <div className="mt-16">
+            <div className="mt-16 flex flex-col sm:flex-row gap-6">
+              {brand.website && (
+                <a 
+                  href={brand.website}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="px-12 py-5 bg-slate-950 text-white font-black rounded-2xl uppercase text-[10px] tracking-[0.3em] hover:bg-red-600 transition-all shadow-xl text-center"
+                >
+                  Visit Official Website
+                </a>
+              )}
               <button 
                 onClick={() => window.scrollTo({ top: document.body.scrollHeight, behavior: 'smooth' })}
-                className="px-12 py-5 bg-slate-950 text-white font-black rounded-2xl uppercase text-[10px] tracking-[0.3em] hover:bg-red-600 transition-all shadow-xl"
+                className="px-12 py-5 bg-white border border-slate-200 text-slate-900 font-black rounded-2xl uppercase text-[10px] tracking-[0.3em] hover:bg-slate-50 transition-all"
               >
                 Inquire Collaboration
               </button>
