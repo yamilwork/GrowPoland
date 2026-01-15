@@ -8,6 +8,15 @@ export interface Brand {
   website?: string;
 }
 
+export interface Review {
+  id: string;
+  author: string;
+  position: string;
+  company: string;
+  content: string;
+  avatar: string;
+}
+
 export interface BlogPost {
   id: string;
   title: string;
@@ -45,6 +54,12 @@ export interface CorporateData {
     title: string;
     description: string;
     viewDetails: string;
+  };
+  reviews: Review[];
+  reviewsSection: {
+    badge: string;
+    title: string;
+    subtitle: string;
   };
   exportDivision: {
     badge: string;

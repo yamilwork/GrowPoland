@@ -30,7 +30,6 @@ const Home: React.FC<HomeProps> = ({ content, onNavigateToArticle, onNavigateToB
           />
           <div className="absolute inset-0 bg-gradient-to-r from-slate-950 via-slate-950/75 to-transparent"></div>
           
-          {/* Animated Global Connection Map Overlay - REPOSICIONADO A LA DERECHA */}
           <svg className="absolute inset-0 w-full h-full pointer-events-none" viewBox="0 0 1000 600" preserveAspectRatio="xMidYMid slice">
             <defs>
               <filter id="glow-red-ultra-soft">
@@ -42,16 +41,12 @@ const Home: React.FC<HomeProps> = ({ content, onNavigateToArticle, onNavigateToB
               </filter>
             </defs>
 
-            {/* Central Hub: Warsaw - Ubicado a la derecha para no tapar el texto */}
             <g transform="translate(680, 180)">
               <circle r="8" fill="rgba(239, 68, 68, 0.15)" className="node-pulse-ring" />
               <circle r="2.5" fill="#ef4444" filter="url(#glow-red-ultra-soft)" className="opacity-80" />
               <text x="12" y="4" fill="rgba(255,255,255,0.6)" fontSize="9" fontWeight="800" className="uppercase tracking-[0.5em]">WARSAW HUB</text>
             </g>
 
-            {/* ROUTES & NODES - Conexiones minimalistas y alejadas del título */}
-            
-            {/* LONDON / UK - Hacia la izquierda pero arriba del título */}
             <g className="opacity-30">
               <path d="M 680 180 Q 580 140 480 150" fill="none" stroke="rgba(239, 68, 68, 0.5)" strokeWidth="0.8" strokeLinecap="round" className="path-anim" style={{ animationDuration: '8s' }} />
               <g transform="translate(480, 150)">
@@ -60,7 +55,6 @@ const Home: React.FC<HomeProps> = ({ content, onNavigateToArticle, onNavigateToB
               </g>
             </g>
 
-            {/* TOKYO / ASIA - Hacia el extremo derecho */}
             <g className="opacity-25">
               <path d="M 680 180 Q 820 120 940 160" fill="none" stroke="rgba(239, 68, 68, 0.5)" strokeWidth="0.8" strokeLinecap="round" className="path-anim" style={{ animationDuration: '7s', animationDelay: '-1s' }} />
               <g transform="translate(940, 160)">
@@ -69,7 +63,6 @@ const Home: React.FC<HomeProps> = ({ content, onNavigateToArticle, onNavigateToB
               </g>
             </g>
 
-            {/* SYDNEY / AUSTRALIA - Hacia abajo a la derecha */}
             <g className="opacity-20">
               <path d="M 680 180 Q 800 350 920 520" fill="none" stroke="rgba(239, 68, 68, 0.5)" strokeWidth="0.8" strokeLinecap="round" className="path-anim" style={{ animationDuration: '10s', animationDelay: '-4s' }} />
               <g transform="translate(920, 520)">
@@ -78,7 +71,6 @@ const Home: React.FC<HomeProps> = ({ content, onNavigateToArticle, onNavigateToB
               </g>
             </g>
 
-            {/* BERLIN / EU - Conexión local corta */}
             <g className="opacity-40">
               <path d="M 680 180 L 640 195" fill="none" stroke="rgba(239, 68, 68, 0.4)" strokeWidth="0.6" strokeDasharray="1,3" />
             </g>
@@ -227,6 +219,45 @@ const Home: React.FC<HomeProps> = ({ content, onNavigateToArticle, onNavigateToB
         </div>
       </section>
 
+      {/* Social Validation / Reviews Section */}
+      <section className="py-24 bg-white border-y border-slate-100">
+        <div className="container mx-auto px-6">
+          <div className="max-w-4xl mx-auto text-center mb-16">
+            <span className="text-slate-400 font-bold uppercase tracking-[0.4em] text-[10px]">{content.reviewsSection.badge}</span>
+            <h2 className="text-3xl md:text-4xl font-black text-slate-950 mt-4 mb-4 tracking-tighter">{content.reviewsSection.title}</h2>
+            <p className="text-slate-500 font-light text-sm">{content.reviewsSection.subtitle}</p>
+          </div>
+          
+          <div className="grid md:grid-cols-2 lg:grid-cols-2 gap-8 max-w-6xl mx-auto">
+            {content.reviews.map((review) => (
+              <div key={review.id} className="p-10 bg-white border border-slate-100 rounded-[2rem] hover:shadow-xl transition-all duration-300 group flex flex-col justify-between">
+                <div>
+                  <div className="flex items-center justify-between mb-8">
+                    <div className="flex text-slate-200">
+                      {[1,2,3,4,5].map(star => (
+                        <svg key={star} className="w-4 h-4 fill-current group-hover:text-red-600 transition-colors" viewBox="0 0 20 20"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"></path></svg>
+                      ))}
+                    </div>
+                  </div>
+                  <p className="text-slate-700 font-light text-lg leading-relaxed mb-10">
+                    "{review.content}"
+                  </p>
+                </div>
+                <div className="flex items-center space-x-4 pt-6 border-t border-slate-50">
+                  <div className="w-12 h-12 rounded-full overflow-hidden bg-slate-100 flex-shrink-0">
+                    <img src={review.avatar} alt={review.author} className="w-full h-full object-cover grayscale" />
+                  </div>
+                  <div>
+                    <div className="font-bold text-slate-950 text-sm uppercase tracking-wider">{review.author}</div>
+                    <div className="text-[10px] text-slate-400 font-bold uppercase tracking-widest">{review.position} <span className="mx-1">•</span> <span className="text-slate-900">{review.company}</span></div>
+                  </div>
+                </div>
+              </div>
+            ))}
+          </div>
+        </div>
+      </section>
+
       {/* Export Division Feature */}
       <section id="export" className="py-24 relative overflow-hidden bg-white">
         <div className="container mx-auto px-6 relative z-10">
@@ -258,7 +289,7 @@ const Home: React.FC<HomeProps> = ({ content, onNavigateToArticle, onNavigateToB
                 <div className="text-2xl font-black mb-10 text-slate-950 tracking-tighter">{content.exportDivision.status}</div>
                 <button 
                   onClick={() => setIsSupplierModalOpen(true)}
-                  className="w-full py-6 bg-red-600 text-white font-black rounded-2xl uppercase text-[10px] tracking-[0.3em] hover:bg-slate-900 transition-all shadow-2xl shadow-red-900/40"
+                  className="w-full py-6 bg-red-600 text-white font-black rounded-2xl uppercase text-[11px] tracking-[0.3em] hover:bg-red-700 transition-all shadow-2xl shadow-red-900/40"
                 >
                   {content.exportDivision.cta}
                 </button>

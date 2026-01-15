@@ -54,6 +54,45 @@ export const translations: Record<Language, CorporateData & { restricted: any }>
         image: "https://images.unsplash.com/photo-1515562141207-7a88fb7ce338?auto=format&fit=crop&q=80&w=800"
       }
     ],
+    reviewsSection: {
+      badge: "Relaciones Corporativas",
+      title: "Opiniones de Nuestra Red Operativa",
+      subtitle: "La estabilidad de GrowPoland se basa en el cumplimiento y el trabajo conjunto con profesionales externos."
+    },
+    reviews: [
+      {
+        id: "r1",
+        author: "Marcus T. Chen",
+        position: "Gestor de Suministros",
+        company: "Manufacturing Partner",
+        content: "Nuestra colaboración con GrowPoland funciona porque sus requerimientos técnicos son consistentes. No hay ambigüedades en sus pedidos, lo que nos permite mantener un flujo de producción estable y sin errores.",
+        avatar: "https://i.pravatar.cc/150?img=12"
+      },
+      {
+        id: "r2",
+        author: "Sarah L. Jenkins",
+        position: "Proveedora Externa",
+        company: "Supply & Flow",
+        content: "Como proveedora, valoro que ante cualquier desajuste en el stock, resolvemos satisfactoriamente los tiempos de envío. Sus previsiones de inventario son realistas, lo que facilita mucho la coordinación logística.",
+        avatar: "https://i.pravatar.cc/150?img=32"
+      },
+      {
+        id: "r3",
+        author: "Robert Sterling",
+        position: "Consultor Fiscal",
+        company: "Independent Audit Firm",
+        content: "Auditamos externamente su estructura contable. Destaco la organización de sus asientos financieros; es una administración sin complicaciones que facilita enormemente los procesos de cierre.",
+        avatar: "https://i.pravatar.cc/150?img=11"
+      },
+      {
+        id: "r4",
+        author: "Elena Voronina",
+        position: "Socia Colaboradora",
+        company: "Distribution Channel",
+        content: "Operamos una parte de su red. GrowPoland es directo: si hay un problema, lo afrontan con honestidad. Ese pragmatismo es lo que hace que la relación comercial sea funcional y duradera.",
+        avatar: "https://i.pravatar.cc/150?img=34"
+      }
+    ],
     exportDivision: {
       badge: "En Desarrollo",
       title: "División de Exportación: Excelencia Polaca",
@@ -196,6 +235,45 @@ export const translations: Record<Language, CorporateData & { restricted: any }>
         image: "https://images.unsplash.com/photo-1515562141207-7a88fb7ce338?auto=format&fit=crop&q=80&w=800"
       }
     ],
+    reviewsSection: {
+      badge: "Corporate Relations",
+      title: "Feedback from Our Network",
+      subtitle: "GrowPoland's stability is built on compliance and long-term work with external professionals."
+    },
+    reviews: [
+      {
+        id: "r1",
+        author: "Marcus T. Chen",
+        position: "Supply Manager",
+        company: "International Manufacturer",
+        content: "Our collaboration with GrowPoland works because their technical requirements are consistent. There are no ambiguities in their orders, allowing us to maintain a stable and error-free production flow.",
+        avatar: "https://i.pravatar.cc/150?img=12"
+      },
+      {
+        id: "r2",
+        author: "Sarah L. Jenkins",
+        position: "External Supplier",
+        company: "Supply & Flow",
+        content: "As a supplier, I value that when stock imbalances occur, we resolve shipping times satisfactorily. Their inventory forecasts are realistic, which greatly simplifies logistical coordination.",
+        avatar: "https://i.pravatar.cc/150?img=32"
+      },
+      {
+        id: "r3",
+        author: "Robert Sterling",
+        position: "Tax Advisor",
+        company: "External Accounting Firm",
+        content: "We externally audit their accounting structure. I highlight the organization of their financial records; it's a straightforward administration that significantly eases the closing processes.",
+        avatar: "https://i.pravatar.cc/150?img=11"
+      },
+      {
+        id: "r4",
+        author: "Elena Voronina",
+        position: "Channel Partner",
+        company: "Distribution Network",
+        content: "We operate part of their network. GrowPoland is direct: if there's a problem, they face it honestly. That pragmatism is what makes the business relationship functional and lasting.",
+        avatar: "https://i.pravatar.cc/150?img=34"
+      }
+    ],
     exportDivision: {
       badge: "In Development",
       title: "Export Division: Polish Excellence",
@@ -336,6 +414,45 @@ export const translations: Record<Language, CorporateData & { restricted: any }>
         description: "Ekskluzywna linia biżuterii rzemieślniczej.",
         market: "Wkrótce",
         image: "https://images.unsplash.com/photo-1515562141207-7a88fb7ce338?auto=format&fit=crop&q=80&w=800"
+      }
+    ],
+    reviewsSection: {
+      badge: "Relacje Korporacyjne",
+      title: "Opinie Naszej Sieci Operacyjnej",
+      subtitle: "Stabilność GrowPoland opiera się na przestrzeganiu zasad i współpracy z profesjonalistami."
+    },
+    reviews: [
+      {
+        id: "r1",
+        author: "Marcus T. Chen",
+        position: "Supply Manager",
+        company: "International Manufacturer",
+        content: "Nasza współpraca z GrowPoland działa, ponieważ ich wymagania techniczne są spójne. W ich zamówieniach nie ma dwuznaczności, co pozwala nam utrzymać stabilny i bezbłędny przepływ produkcji.",
+        avatar: "https://i.pravatar.cc/150?img=12"
+      },
+      {
+        id: "r2",
+        author: "Sarah L. Jenkins",
+        position: "Zewnętrzny Dostawca",
+        company: "Supply & Flow",
+        content: "Jako dostawca cenię to, że w przypadku nierównowagi zapasów, satysfakcjonująco rozwiązujemy czasy wysyłki. Ich prognozy zapasów są realistyczne, co znacznie upraszcza koordynację logistyczną.",
+        avatar: "https://i.pravatar.cc/150?img=32"
+      },
+      {
+        id: "r3",
+        author: "Robert Sterling",
+        position: "Tax Advisor",
+        company: "Audit Firm",
+        content: "Audytujemy zewnętrznie ich strukturę księgową. Podkreślam organizację ich zapisów finansowych; to prosta administracja, która znacznie ułatwia procesy zamknięcia.",
+        avatar: "https://i.pravatar.cc/150?img=11"
+      },
+      {
+        id: "r4",
+        author: "Elena Voronina",
+        position: "Channel Partner",
+        company: "Distribution Network",
+        content: "Obsługujemy część ich sieci. GrowPoland jest bezpośredni: jeśli jest problem, stawiają mu czoła uczciwie. Ten pragmatyzm sprawia, że relacja biznesowa jest funkcjonalna i trwała.",
+        avatar: "https://i.pravatar.cc/150?img=34"
       }
     ],
     exportDivision: {
