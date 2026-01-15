@@ -1,3 +1,4 @@
+
 export interface Brand {
   id: string;
   name: string;
@@ -52,6 +53,11 @@ export interface CorporateData {
     statusLabel: string;
     cta: string;
     socialText: string;
+    modalTitle: string;
+    modalDescription: string;
+    formLabelProduct: string;
+    formPlaceholderProduct: string;
+    securityText: string;
   };
   blog: BlogPost[];
   blogSection: {
