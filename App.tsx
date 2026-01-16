@@ -11,7 +11,7 @@ import { translations } from './data.ts';
 
 const App: React.FC = () => {
   const [currentPage, setCurrentPage] = useState('home');
-  const [lang, setLang] = useState<Language>('es'); 
+  const [lang, setLang] = useState<Language>('en'); 
   const [selectedArticleId, setSelectedArticleId] = useState<string | null>(null);
   const [selectedBrandId, setSelectedBrandId] = useState<string | null>(null);
 

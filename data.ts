@@ -12,11 +12,11 @@ export const translations: Record<Language, CorporateData & { restricted: any; l
     about: {
       badge: "Nuestra Filosofía",
       title: "Agilidad Tecnológica, Compromiso Humano",
-      description: "En GrowPoland Investment, entendemos que el futuro del comercio reside en la sinergia perfecta. Abrazamos la Inteligencia Artificial y la automatización avanzada para dotar a nuestros procesos de una agilidad y precisión sin precedentes en la logística global. Sin embargo, sabemos que la eficiencia tecnológica solo es valiosa cuando está respaldada por el criterio humano. Por eso, complementamos nuestras herramientas de vanguardia con un equipo experto que audita cada proveedor y brinda un soporte post-venta cercano, real y eficiente.",
-      mission: "Optimizar la cadena de suministro mediante IA avanzada, garantizando que cada interacción final sea gestionada por personas comprometidas con la calidad.",
-      vision: "Ser el puente definitivo donde la máxima velocidad tecnológica se encuentra con la calidez y responsabilidad de un equipo humano excepcional.",
+      description: "En GrowPoland Investment, impulsamos el futuro del comercio a través de la sinergia. Integramos Inteligencia Artificial y automatización avanzada para dotar a nuestros procesos de una agilidad y precisión excepcionales en la logística global. Sin embargo, creemos que el verdadero valor reside en el equilibrio: potenciamos nuestra tecnología con el criterio y la empatía de un equipo humano que audita cada proceso y brinda un soporte cercano, asegurando que la eficiencia digital nunca comprometa la calidez del servicio.",
+      mission: "Optimizar la cadena de suministro mediante IA avanzada, garantizando que cada interacción final sea gestionada por personas comprometidas con la excelencia.",
+      vision: "Ser el puente definitivo donde la máxima velocidad tecnológica se encuentra con la responsabilidad y cercanía de un equipo humano excepcional.",
       missionLabel: "Nuestra Propuesta",
-      visionLabel: "Sinergia 2026"
+      visionLabel: "Sinergia Tecnológica"
     },
     stats: [
       { label: "Mercados Activos", value: "12+", icon: "Globe" },
@@ -196,18 +196,18 @@ export const translations: Record<Language, CorporateData & { restricted: any; l
   en: {
     hero: {
       title: "Connecting Global Markets from the Heart of Europe",
-      subtitle: "GrowPoland Investment is a leading holding company managing international E-commerce ecosystems and facilitating global trade.",
+      subtitle: "GrowPoland Investment is a leading holding company managing international E-commerce ecosystems and facilitating global trade with logistical efficiency and strategic vision.",
       cta: "Explore Opportunities",
       ctaSecondary: "Our Network"
     },
     about: {
       badge: "Our Philosophy",
       title: "Technological Agility, Human Commitment",
-      description: "At GrowPoland Investment, we believe the future of commerce lies in perfect synergy. We embrace Artificial Intelligence and advanced automation to provide our processes with unprecedented agility and precision in global logistics. However, we know that technological efficiency is only valuable when backed by human judgment. That's why we complement our cutting-edge tools with an expert team that audits every supplier and provides close, real, and efficient post-sales support.",
-      mission: "To optimize the supply chain through advanced AI while ensuring every final interaction is handled by people committed to quality.",
-      vision: "To be the ultimate bridge where maximum technological speed meets the warmth and accountability of an exceptional human team.",
+      description: "At GrowPoland Investment, we power the future of commerce through synergy. We integrate Artificial Intelligence and advanced automation to provide our processes with exceptional agility and precision in global logistics. However, we believe true value lies in balance: we enhance our technology with the judgment and empathy of an expert human team that audits every process and provides close support, ensuring that digital efficiency never compromises service warmth.",
+      mission: "To optimize the supply chain through advanced AI while ensuring every final interaction is handled by people committed to excellence.",
+      vision: "To be the ultimate bridge where maximum technological speed meets the accountability and proximity of an exceptional human team.",
       missionLabel: "Our Proposal",
-      visionLabel: "Synergy 2026"
+      visionLabel: "Tech Synergy"
     },
     stats: [
       { label: "Active Markets", value: "12+", icon: "Globe" },
@@ -225,7 +225,7 @@ export const translations: Record<Language, CorporateData & { restricted: any; l
       {
         id: "morleyn-pet",
         name: "Morleyn",
-        description: "Leaders in premium pet accessories. We manage international suppliers for the UK retail market.",
+        description: "Leaders in premium pet accessories. We manage international suppliers for the UK retail market, expanding to USA, Australia, Germany, and Poland.",
         market: "United Kingdom (UK)",
         image: "https://images.unsplash.com/photo-1583337130417-3346a1be7dee?auto=format&fit=crop&q=80&w=800",
         website: "https://www.morleyn.com/"
@@ -233,14 +233,14 @@ export const translations: Record<Language, CorporateData & { restricted: any; l
       {
         id: "aurelius-apparel",
         name: "Aurelius & Co.",
-        description: "Upcoming men's and women's apparel brand. Currently in validation phase.",
+        description: "Upcoming men's and women's apparel brand. Currently in market validation phase and building visual identity for the premium segment.",
         market: "In Validation",
         image: "https://images.unsplash.com/photo-1490481651871-ab68de25d43d?auto=format&fit=crop&q=80&w=800"
       },
       {
         id: "lumina-artis",
         name: "Lumina Artis",
-        description: "Exclusive line of artisanal jewelry featuring semi-precious stones.",
+        description: "Exclusive line of artisanal jewelry featuring semi-precious stones, pure Gold, and Silver. Merging traditional craft with operational efficiency.",
         market: "Coming Soon",
         image: "https://images.unsplash.com/photo-1515562141207-7a88fb7ce338?auto=format&fit=crop&q=80&w=800"
       }
@@ -256,7 +256,7 @@ export const translations: Record<Language, CorporateData & { restricted: any; l
         author: "Marcus T. Chen",
         position: "Supply Manager",
         company: "Manufacturing Partner",
-        content: "Our collaboration with GrowPoland works because their technical requirements are consistent. No ambiguities, allowing for a stable production flow.",
+        content: "Our collaboration with GrowPoland works because their technical requirements are consistent. No ambiguities in their orders, allowing for a stable production flow.",
         avatar: "https://i.pravatar.cc/150?img=12"
       },
       {
@@ -271,8 +271,8 @@ export const translations: Record<Language, CorporateData & { restricted: any; l
         id: "r3",
         author: "Robert Sterling",
         position: "Tax Advisor",
-        company: "Accounting Firm",
-        content: "Audit transparency is key. They present very organized and transparent accounting, reflecting mature management.",
+        company: "Independent Audit Firm",
+        content: "We audit their accounting structure externally. The organization of their financial entries is outstanding; it's a seamless administration.",
         avatar: "https://i.pravatar.cc/150?img=11"
       },
       {
@@ -280,14 +280,14 @@ export const translations: Record<Language, CorporateData & { restricted: any; l
         author: "Elena Voronina",
         position: "Channel Partner",
         company: "Distribution Network",
-        content: "GrowPoland is direct: if there's a problem, they face it honestly. That pragmatism makes the relationship functional.",
+        content: "GrowPoland is direct: if there's a problem, they face it honestly. That pragmatism makes the relationship functional and long-lasting.",
         avatar: "https://i.pravatar.cc/150?img=34"
       }
     ],
     exportDivision: {
       badge: "In Development",
       title: "Export Division: Polish Excellence",
-      description: "Propelling local manufacturing onto the global stage with strategic vision.",
+      description: "Propelling local manufacturing onto the global stage, we are consolidating a strategic unit dedicated to the future export of 100% Polish premium products.",
       status: "Audit & Analysis",
       statusLabel: "Current Phase",
       cta: "Inquire as Supplier",
@@ -308,15 +308,15 @@ export const translations: Record<Language, CorporateData & { restricted: any; l
       {
         id: "1",
         title: "E-commerce Trends in Eastern Europe 2026",
-        excerpt: "An in-depth analysis of the Polish market as a logistics hub.",
+        excerpt: "An in-depth analysis of the growth of the Polish market as a continental logistics hub.",
         date: "Jan 10, 2026",
         category: "Insights",
         image: "https://images.unsplash.com/photo-1460925895917-afdab827c52f?auto=format&fit=crop&q=80&w=800"
       },
       {
         id: "2",
-        title: "The impact of AI on logistics",
-        excerpt: "How automation is redefining global delivery times.",
+        title: "The impact of AI on last-mile logistics",
+        excerpt: "How automation and predictive algorithms are redefining delivery times.",
         date: "Dec 28, 2025",
         category: "Logistics",
         image: "https://images.unsplash.com/photo-1586528116311-ad8dd3c8310d?auto=format&fit=crop&q=80&w=800"
@@ -324,7 +324,7 @@ export const translations: Record<Language, CorporateData & { restricted: any; l
     ],
     contact: {
       title: "Let's build the future of trade.",
-      description: "Interested in our management or our new export network? Our team is ready to talk.",
+      description: "Interested in our management capabilities or our new export network? Our leadership team is ready to talk.",
       emailLabel: "Corporate Email",
       phoneLabel: "Digital Contact",
       address: "Hoża 29, 00-521 Warsaw, Poland",
@@ -376,29 +376,29 @@ export const translations: Record<Language, CorporateData & { restricted: any; l
     legal: {
       privacy: {
         title: "Privacy Policy",
-        content: "At GrowPoland Investment, we take your corporate data security seriously. All information collected through our channels is treated with strict encryption under European GDPR. We do not share your data with third parties."
+        content: "At GrowPoland Investment, we take your corporate data security seriously. All information collected through our channels is treated with strict encryption under European GDPR. We do not share your data with third parties without explicit consent."
       },
       terms: {
         title: "Terms and Conditions",
-        content: "Access to this portal is regulated by the international trade laws of Poland and the European Union. Use of our supplier network is subject to specific NDAs."
+        content: "Access to this portal is regulated by the international trade laws of Poland and the European Union. Use of our supplier network and distribution channels is subject to specific NDAs."
       }
     }
   },
   pl: {
     hero: {
       title: "Łączenie Globalnych Rynków z Serca Europy",
-      subtitle: "GrowPoland Investment to wiodący holding zarządzający międzynarodowymi ekosystemami E-commerce.",
+      subtitle: "GrowPoland Investment to wiodący holding zarządzający międzynarodowymi ekosystemami E-commerce i ułatwiający handel globalny.",
       cta: "Poznaj Możliwości",
       ctaSecondary: "Nasza Sieć"
     },
     about: {
       badge: "Nasza Filozofia",
       title: "Technologiczna Zwinność, Ludzkie Zaangażowanie",
-      description: "W GrowPoland Investment wierzymy, że przyszłość handlu leży w doskonałej synergii. Wykorzystujemy Sztuczną Inteligencję i zaawansowaną automatyzację, aby zapewnić naszym procesom bezprecedensową zwinność i precyzję w globalnej logistyce. Wiemy jednak, że wydajność technologiczna jest wartościowa tylko wtedy, gdy wspiera ją ludzki osąd. Dlatego uzupełniamy nasze najnowocześniejsze narzędzia o ekspercki zespół, który audytuje każdego dostawcę i zapewnia bliskie, rzeczywiste i sprawne wsparcie posprzedażowe.",
-      mission: "Optymalizacja łańcucha dostaw poprzez zaawansowaną sztuczną inteligencję przy jednoczesnym zapewnieniu, że każda interakcja końcowa jest obsługiwana przez ludzi dbających o jakość.",
-      vision: "Być ostatecznym pomostem, gdzie maksymalna prędkość technologiczna spotyka się z ciepłem i odpowiedzialnością wyjątkowego ludzkiego zespołu.",
+      description: "W GrowPoland Investment budujemy przyszłość handlu poprzez synergię. Integrujemy Sztuczną Inteligencję i zaawansowaną automatyzację, aby zapewnić naszym procesom wyjątkową zwinność i precyzję w globalnej logistyce. Wierzymy jednak, że prawdziwa wartość tkwi w równowadze: wzmacniamy naszą technologię osądem i empatią eksperckiego zespołu, który audytuje każdy proces i zapewnia bliskie wsparcie, gwarantując, że cyfrowa wydajność nigdy nie odbędzie się kosztem jakości obsługi.",
+      mission: "Optymalizacja łańcucha dostaw poprzez zaawansowaną sztuczną inteligencję przy jednoczesnym zapewnieniu, że każda interakcja jest obsługiwana przez ludzi dbających o doskonałość.",
+      vision: "Być ostatecznym pomostem, gdzie maksymalna prędkość technologiczna spotyka się z odpowiedzialnością i bliskością wyjątkowego ludzkiego zespołu.",
       missionLabel: "Nasza Propozycja",
-      visionLabel: "Synergia 2026"
+      visionLabel: "Synergia Tech"
     },
     stats: [
       { label: "Aktywne Rynki", value: "12+", icon: "Globe" },
@@ -409,14 +409,14 @@ export const translations: Record<Language, CorporateData & { restricted: any; l
     brandsSection: {
       badge: "Jednostka Biznesowa",
       title: "Portfolio E-commerce",
-      description: "Zarządzamy globalnymi markami, koncentrując się na optymalizacji operacyjnej.",
+      description: "Zarządzamy globalnymi markami, koncentrując się na optymalizacji operacyjnej i satysfakcji klienta.",
       viewDetails: "Zobacz Szczegóły"
     },
     brands: [
       {
         id: "morleyn-pet",
         name: "Morleyn",
-        description: "Liderzy w akcesoriach premium dla zwierząt. Zarządzamy międzynarodowymi dostawcami.",
+        description: "Liderzy w akcesoriach premium dla zwierząt. Zarządzamy międzynarodowymi dostawcami na rynek UK.",
         market: "Wielka Brytania (UK)",
         image: "https://images.unsplash.com/photo-1583337130417-3346a1be7dee?auto=format&fit=crop&q=80&w=800",
         website: "https://www.morleyn.com/"
@@ -424,14 +424,14 @@ export const translations: Record<Language, CorporateData & { restricted: any; l
       {
         id: "aurelius-apparel",
         name: "Aurelius & Co.",
-        description: "Nadchodząca marka odzieży męskiej i damskiej.",
+        description: "Nadchodząca marka odzieży męskiej i damskiej w segmencie premium.",
         market: "W trakcie walidacji",
         image: "https://images.unsplash.com/photo-1490481651871-ab68de25d43d?auto=format&fit=crop&q=80&w=800"
       },
       {
         id: "lumina-artis",
         name: "Lumina Artis",
-        description: "Ekskluzywna linia biżuterii rzemieślniczej.",
+        description: "Ekskluzywna linia biżuterii rzemieślniczej z kamieni szlachetnych.",
         market: "Wkrótce",
         image: "https://images.unsplash.com/photo-1515562141207-7a88fb7ce338?auto=format&fit=crop&q=80&w=800"
       }
@@ -446,8 +446,8 @@ export const translations: Record<Language, CorporateData & { restricted: any; l
         id: "r1",
         author: "Marcus T. Chen",
         position: "Supply Manager",
-        company: "International Manufacturer",
-        content: "Nasza współpraca z GrowPoland działa, ponieważ ich wymagania techniczne są spójne. Brak dwuznaczności pozwala na stabilny przepływ produkcji.",
+        company: "Manufacturing Partner",
+        content: "Współpraca z GrowPoland działa, ponieważ ich wymagania techniczne są spójne. Brak dwuznaczności pozwala na stabilny przepływ produkcji.",
         avatar: "https://i.pravatar.cc/150?img=12"
       },
       {
@@ -455,7 +455,7 @@ export const translations: Record<Language, CorporateData & { restricted: any; l
         author: "Sarah L. Jenkins",
         position: "Zewnętrzny Dostawca",
         company: "Supply & Flow",
-        content: "Jako dostawca cenię to, że w przypadku problemów, satysfakcjonująco rozwiązujemy czasy wysyłki. Ich prognozy są realistyczne.",
+        content: "Jako dostawca cenię to, że w przypadku problemów, satysfakcjonująco rozwiązujemy czasy wysyłki.",
         avatar: "https://i.pravatar.cc/150?img=32"
       },
       {
@@ -478,7 +478,7 @@ export const translations: Record<Language, CorporateData & { restricted: any; l
     exportDivision: {
       badge: "W Rozwoju",
       title: "Dział Eksportu: Polska Doskonałość",
-      description: "Wprowadzając lokalną produkcję na scenę globalną.",
+      description: "Wprowadzając lokalną produkcję na scenę globalną, budujemy jednostkę dedykowaną eksportowi polskich produktów premium.",
       status: "Audyt i Analiza",
       statusLabel: "Obecna Faza",
       cta: "Kontakt dla Dostawców",
@@ -531,7 +531,7 @@ export const translations: Record<Language, CorporateData & { restricted: any; l
       }
     },
     footer: {
-      description: "Liderzy w strategicznym zarządzaniu e-commerce.",
+      description: "Liderzy w strategicznym zarządzaniu e-commerce z Warszawy.",
       company: "Firma",
       support: "Wsparcie",
       contact: "Kontakt",
