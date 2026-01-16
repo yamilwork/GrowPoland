@@ -1,7 +1,7 @@
 
 import { CorporateData, Language } from './types.ts';
 
-export const translations: Record<Language, CorporateData & { restricted: any }> = {
+export const translations: Record<Language, CorporateData & { restricted: any; legal: any }> = {
   es: {
     hero: {
       title: "Conectando Mercados Globales desde el Corazón de Europa",
@@ -10,13 +10,13 @@ export const translations: Record<Language, CorporateData & { restricted: any }>
       ctaSecondary: "Conoce Nuestra Red"
     },
     about: {
-      badge: "Nuestra Trayectoria",
-      title: "Excelencia en Gestión de Activos Digitales",
-      description: "Con sede en Polonia, GrowPoland Investment opera como la empresa matriz de una red diversa de negocios de comercio electrónico. Importamos innovación de los principales centros manufactureros del mundo para servir a mercados globales.",
-      mission: "Nuestra misión es optimizar la cadena de suministro global a través de tecnología y gestión experta de marcas.",
-      vision: "Convertirnos en el puente definitivo entre la calidad polaca y la demanda internacional.",
-      missionLabel: "Misión",
-      visionLabel: "Visión"
+      badge: "Nuestra Filosofía",
+      title: "Agilidad Tecnológica, Compromiso Humano",
+      description: "En GrowPoland Investment, entendemos que el futuro del comercio reside en la sinergia perfecta. Abrazamos la Inteligencia Artificial y la automatización avanzada para dotar a nuestros procesos de una agilidad y precisión sin precedentes en la logística global. Sin embargo, sabemos que la eficiencia tecnológica solo es valiosa cuando está respaldada por el criterio humano. Por eso, complementamos nuestras herramientas de vanguardia con un equipo experto que audita cada proveedor y brinda un soporte post-venta cercano, real y eficiente.",
+      mission: "Optimizar la cadena de suministro mediante IA avanzada, garantizando que cada interacción final sea gestionada por personas comprometidas con la calidad.",
+      vision: "Ser el puente definitivo donde la máxima velocidad tecnológica se encuentra con la calidez y responsabilidad de un equipo humano excepcional.",
+      missionLabel: "Nuestra Propuesta",
+      visionLabel: "Sinergia 2026"
     },
     stats: [
       { label: "Mercados Activos", value: "12+", icon: "Globe" },
@@ -96,7 +96,7 @@ export const translations: Record<Language, CorporateData & { restricted: any }>
     exportDivision: {
       badge: "En Desarrollo",
       title: "División de Exportación: Excelencia Polaca",
-      description: "Impulsando la manufactura local hacia el escenario global, estamos consolidando una unidad de negocio estratégica dedicada a la futura exportación de productos premium 100 % de origen polaco. Actualmente nos encontramos en una fase rigurosa de auditoría de proveedores y análisis de productos.",
+      description: "Impulsando la manufactura local hacia el escenario global, estamos consolidando una unidad de negocio estratégica dedicada a la futura exportación de productos premium 100 % de origen polaco.",
       status: "Análisis y Auditoría",
       statusLabel: "Fase Actual",
       cta: "Contactar como Proveedor",
@@ -117,7 +117,7 @@ export const translations: Record<Language, CorporateData & { restricted: any }>
       {
         id: "1",
         title: "Tendencias de E-commerce en Europa del Este 2026",
-        excerpt: "Un análisis profundo sobre el crecimiento del mercado polaco como hub logístico continental en la era post-digital.",
+        excerpt: "Un análisis profundo sobre el crecimiento del mercado polaco como hub logístico continental.",
         date: "10 Ene, 2026",
         category: "Insights",
         image: "https://images.unsplash.com/photo-1460925895917-afdab827c52f?auto=format&fit=crop&q=80&w=800"
@@ -125,7 +125,7 @@ export const translations: Record<Language, CorporateData & { restricted: any }>
       {
         id: "2",
         title: "El impacto de la IA en la logística de última milla",
-        excerpt: "Cómo la automatización y los algoritmos predictivos están redefiniendo los tiempos de entrega globales para 2026.",
+        excerpt: "Cómo la automatización y los algoritmos predictivos están redefiniendo los tiempos de entrega.",
         date: "28 Dic, 2025",
         category: "Logística",
         image: "https://images.unsplash.com/photo-1586528116311-ad8dd3c8310d?auto=format&fit=crop&q=80&w=800"
@@ -177,27 +177,37 @@ export const translations: Record<Language, CorporateData & { restricted: any }>
     restricted: {
       title: "Acceso Restringido",
       subtitle: "Esta zona es de uso exclusivo para socios y accionistas de GrowPoland Investment.",
-      description: "Por favor, introduzca sus credenciales corporativas para continuar o contacte con su gestor de cuenta.",
+      description: "Por favor, introduzca sus credenciales corporativas para continuar.",
       back: "Volver al Inicio",
       badge: "Zona Privada",
-      error: "Credenciales no válidas. Acceso denegado por el Portal de Seguridad de GrowPoland."
+      error: "Credenciales no válidas. Acceso denegado."
+    },
+    legal: {
+      privacy: {
+        title: "Política de Privacidad",
+        content: "En GrowPoland Investment, nos tomamos en serio la seguridad de sus datos corporativos. Toda información recopilada a través de nuestros canales de contacto es tratada con el máximo rigor de cifrado conforme a la GDPR europea. No compartimos sus datos con terceros sin consentimiento explícito."
+      },
+      terms: {
+        title: "Términos y Condiciones",
+        content: "El acceso a este portal está regulado por las leyes de comercio internacional de Polonia y la Unión Europea. El uso de nuestra red de proveedores y canales de distribución está sujeto a acuerdos de confidencialidad específicos."
+      }
     }
   },
   en: {
     hero: {
       title: "Connecting Global Markets from the Heart of Europe",
-      subtitle: "GrowPoland Investment is a leading holding company managing international E-commerce ecosystems and facilitating global trade with logistical efficiency and strategic vision.",
+      subtitle: "GrowPoland Investment is a leading holding company managing international E-commerce ecosystems and facilitating global trade.",
       cta: "Explore Opportunities",
       ctaSecondary: "Our Network"
     },
     about: {
-      badge: "Our Track Record",
-      title: "Excellence in Digital Asset Management",
-      description: "Based in Poland, GrowPoland Investment operates as the parent company for a diverse network of e-commerce businesses.",
-      mission: "Our mission is to optimize the global supply chain through technology and expert brand management.",
-      vision: "To become the ultimate bridge between Polish quality and international demand.",
-      missionLabel: "Mission",
-      visionLabel: "Vision"
+      badge: "Our Philosophy",
+      title: "Technological Agility, Human Commitment",
+      description: "At GrowPoland Investment, we believe the future of commerce lies in perfect synergy. We embrace Artificial Intelligence and advanced automation to provide our processes with unprecedented agility and precision in global logistics. However, we know that technological efficiency is only valuable when backed by human judgment. That's why we complement our cutting-edge tools with an expert team that audits every supplier and provides close, real, and efficient post-sales support.",
+      mission: "To optimize the supply chain through advanced AI while ensuring every final interaction is handled by people committed to quality.",
+      vision: "To be the ultimate bridge where maximum technological speed meets the warmth and accountability of an exceptional human team.",
+      missionLabel: "Our Proposal",
+      visionLabel: "Synergy 2026"
     },
     stats: [
       { label: "Active Markets", value: "12+", icon: "Globe" },
@@ -224,7 +234,7 @@ export const translations: Record<Language, CorporateData & { restricted: any }>
         id: "aurelius-apparel",
         name: "Aurelius & Co.",
         description: "Upcoming men's and women's apparel brand. Currently in validation phase.",
-        market: "In Validation / Construction",
+        market: "In Validation",
         image: "https://images.unsplash.com/photo-1490481651871-ab68de25d43d?auto=format&fit=crop&q=80&w=800"
       },
       {
@@ -245,8 +255,8 @@ export const translations: Record<Language, CorporateData & { restricted: any }>
         id: "r1",
         author: "Marcus T. Chen",
         position: "Supply Manager",
-        company: "International Manufacturer",
-        content: "Our collaboration with GrowPoland works because their technical requirements are consistent. There are no ambiguities in their orders, allowing us to maintain a stable and error-free production flow.",
+        company: "Manufacturing Partner",
+        content: "Our collaboration with GrowPoland works because their technical requirements are consistent. No ambiguities, allowing for a stable production flow.",
         avatar: "https://i.pravatar.cc/150?img=12"
       },
       {
@@ -254,15 +264,15 @@ export const translations: Record<Language, CorporateData & { restricted: any }>
         author: "Sarah L. Jenkins",
         position: "External Supplier",
         company: "Supply & Flow",
-        content: "As a supplier, I value that when stock imbalances occur, we resolve shipping times satisfactorily. Their inventory forecasts are realistic, which greatly simplifies logistical coordination.",
+        content: "As a supplier, I value that when stock imbalances occur, we resolve shipping times satisfactorily. Their forecasts are realistic.",
         avatar: "https://i.pravatar.cc/150?img=32"
       },
       {
         id: "r3",
         author: "Robert Sterling",
         position: "Tax Advisor",
-        company: "External Accounting Firm",
-        content: "We externally audit their accounting structure. I highlight the organization of their financial records; it's a straightforward administration that significantly eases the closing processes.",
+        company: "Accounting Firm",
+        content: "Audit transparency is key. They present very organized and transparent accounting, reflecting mature management.",
         avatar: "https://i.pravatar.cc/150?img=11"
       },
       {
@@ -270,20 +280,20 @@ export const translations: Record<Language, CorporateData & { restricted: any }>
         author: "Elena Voronina",
         position: "Channel Partner",
         company: "Distribution Network",
-        content: "We operate part of their network. GrowPoland is direct: if there's a problem, they face it honestly. That pragmatism is what makes the business relationship functional and lasting.",
+        content: "GrowPoland is direct: if there's a problem, they face it honestly. That pragmatism makes the relationship functional.",
         avatar: "https://i.pravatar.cc/150?img=34"
       }
     ],
     exportDivision: {
       badge: "In Development",
       title: "Export Division: Polish Excellence",
-      description: "Propelling local manufacturing onto the global stage, we are consolidating a strategic business unit dedicated to the future export of 100% Polish-origin products.",
+      description: "Propelling local manufacturing onto the global stage with strategic vision.",
       status: "Audit & Analysis",
       statusLabel: "Current Phase",
       cta: "Inquire as Supplier",
       socialText: "Consolidating a network of high-performance local producers.",
       modalTitle: "Polish Supplier Inquiry",
-      modalDescription: "Join our premium export network. We are currently auditing local producers for global expansion into UK, USA, and Australia.",
+      modalDescription: "Join our premium export network. We audit local producers for global expansion.",
       formLabelProduct: "Logistics Capabilities",
       formPlaceholderProduct: "Describe your key products and manufacturing capacity...",
       securityText: "GrowPoland Security: Active Encryption"
@@ -298,15 +308,15 @@ export const translations: Record<Language, CorporateData & { restricted: any }>
       {
         id: "1",
         title: "E-commerce Trends in Eastern Europe 2026",
-        excerpt: "An in-depth analysis of the Polish market's growth as a continental logistics hub.",
+        excerpt: "An in-depth analysis of the Polish market as a logistics hub.",
         date: "Jan 10, 2026",
         category: "Insights",
         image: "https://images.unsplash.com/photo-1460925895917-afdab827c52f?auto=format&fit=crop&q=80&w=800"
       },
       {
         id: "2",
-        title: "The impact of AI on last-mile logistics",
-        excerpt: "How automation and predictive algorithms are redefining global delivery times.",
+        title: "The impact of AI on logistics",
+        excerpt: "How automation is redefining global delivery times.",
         date: "Dec 28, 2025",
         category: "Logistics",
         image: "https://images.unsplash.com/photo-1586528116311-ad8dd3c8310d?auto=format&fit=crop&q=80&w=800"
@@ -314,7 +324,7 @@ export const translations: Record<Language, CorporateData & { restricted: any }>
     ],
     contact: {
       title: "Let's build the future of trade.",
-      description: "Interested in our management capabilities or our new export network? Our team is ready to talk.",
+      description: "Interested in our management or our new export network? Our team is ready to talk.",
       emailLabel: "Corporate Email",
       phoneLabel: "Digital Contact",
       address: "Hoża 29, 00-521 Warsaw, Poland",
@@ -357,28 +367,38 @@ export const translations: Record<Language, CorporateData & { restricted: any }>
     },
     restricted: {
       title: "Restricted Access",
-      subtitle: "This area is exclusively for GrowPoland Investment partners and shareholders.",
+      subtitle: "This area is exclusively for GrowPoland Investment partners.",
       description: "Please enter your corporate credentials to continue.",
       back: "Back to Home",
       badge: "Private Zone",
-      error: "Invalid credentials. Access denied by GrowPoland Security Gateway."
+      error: "Invalid credentials. Access denied."
+    },
+    legal: {
+      privacy: {
+        title: "Privacy Policy",
+        content: "At GrowPoland Investment, we take your corporate data security seriously. All information collected through our channels is treated with strict encryption under European GDPR. We do not share your data with third parties."
+      },
+      terms: {
+        title: "Terms and Conditions",
+        content: "Access to this portal is regulated by the international trade laws of Poland and the European Union. Use of our supplier network is subject to specific NDAs."
+      }
     }
   },
   pl: {
     hero: {
       title: "Łączenie Globalnych Rynków z Serca Europy",
-      subtitle: "GrowPoland Investment to wiodący holding zarządzający międzynarodowymi ekosystemami E-commerce i ułatwiający globalny handel.",
+      subtitle: "GrowPoland Investment to wiodący holding zarządzający międzynarodowymi ekosystemami E-commerce.",
       cta: "Poznaj Możliwości",
       ctaSecondary: "Nasza Sieć"
     },
     about: {
-      badge: "Nasza Historia",
-      title: "Doskonałość w Zarządzaniu Aktywami Cyfrowymi",
-      description: "Z siedzibą en Polsce, GrowPoland Investment działa jako spółka matka dla zróżnicowanej sieci firm e-commerce.",
-      mission: "Naszą misją jest optymalizacja globalnego łańcucha dostaw poprzez technologię.",
-      vision: "Stać się pomostem między polską jakością a międzynarodowym popytem.",
-      missionLabel: "Misja",
-      visionLabel: "Wizja"
+      badge: "Nasza Filozofia",
+      title: "Technologiczna Zwinność, Ludzkie Zaangażowanie",
+      description: "W GrowPoland Investment wierzymy, że przyszłość handlu leży w doskonałej synergii. Wykorzystujemy Sztuczną Inteligencję i zaawansowaną automatyzację, aby zapewnić naszym procesom bezprecedensową zwinność i precyzję w globalnej logistyce. Wiemy jednak, że wydajność technologiczna jest wartościowa tylko wtedy, gdy wspiera ją ludzki osąd. Dlatego uzupełniamy nasze najnowocześniejsze narzędzia o ekspercki zespół, który audytuje każdego dostawcę i zapewnia bliskie, rzeczywiste i sprawne wsparcie posprzedażowe.",
+      mission: "Optymalizacja łańcucha dostaw poprzez zaawansowaną sztuczną inteligencję przy jednoczesnym zapewnieniu, że każda interakcja końcowa jest obsługiwana przez ludzi dbających o jakość.",
+      vision: "Być ostatecznym pomostem, gdzie maksymalna prędkość technologiczna spotyka się z ciepłem i odpowiedzialnością wyjątkowego ludzkiego zespołu.",
+      missionLabel: "Nasza Propozycja",
+      visionLabel: "Synergia 2026"
     },
     stats: [
       { label: "Aktywne Rynki", value: "12+", icon: "Globe" },
@@ -418,7 +438,7 @@ export const translations: Record<Language, CorporateData & { restricted: any }>
     ],
     reviewsSection: {
       badge: "Relacje Korporacyjne",
-      title: "Opinie Naszej Sieci Operacyjnej",
+      title: "Opinie Naszej Sieci",
       subtitle: "Stabilność GrowPoland opiera się na przestrzeganiu zasad i współpracy z profesjonalistami."
     },
     reviews: [
@@ -427,7 +447,7 @@ export const translations: Record<Language, CorporateData & { restricted: any }>
         author: "Marcus T. Chen",
         position: "Supply Manager",
         company: "International Manufacturer",
-        content: "Nasza współpraca z GrowPoland działa, ponieważ ich wymagania techniczne są spójne. W ich zamówieniach nie ma dwuznaczności, co pozwala nam utrzymać stabilny i bezbłędny przepływ produkcji.",
+        content: "Nasza współpraca z GrowPoland działa, ponieważ ich wymagania techniczne są spójne. Brak dwuznaczności pozwala na stabilny przepływ produkcji.",
         avatar: "https://i.pravatar.cc/150?img=12"
       },
       {
@@ -435,7 +455,7 @@ export const translations: Record<Language, CorporateData & { restricted: any }>
         author: "Sarah L. Jenkins",
         position: "Zewnętrzny Dostawca",
         company: "Supply & Flow",
-        content: "Jako dostawca cenię to, że w przypadku nierównowagi zapasów, satysfakcjonująco rozwiązujemy czasy wysyłki. Ich prognozy zapasów są realistyczne, co znacznie upraszcza koordynację logistyczną.",
+        content: "Jako dostawca cenię to, że w przypadku problemów, satysfakcjonująco rozwiązujemy czasy wysyłki. Ich prognozy są realistyczne.",
         avatar: "https://i.pravatar.cc/150?img=32"
       },
       {
@@ -443,7 +463,7 @@ export const translations: Record<Language, CorporateData & { restricted: any }>
         author: "Robert Sterling",
         position: "Tax Advisor",
         company: "Audit Firm",
-        content: "Audytujemy zewnętrznie ich strukturę księgową. Podkreślam organizację ich zapisów finansowych; to prosta administracja, która znacznie ułatwia procesy zamknięcia.",
+        content: "Audytujemy ich strukturę księgową. Przejrzysta administracja znacznie ułatwia procesy zamknięcia.",
         avatar: "https://i.pravatar.cc/150?img=11"
       },
       {
@@ -451,43 +471,43 @@ export const translations: Record<Language, CorporateData & { restricted: any }>
         author: "Elena Voronina",
         position: "Channel Partner",
         company: "Distribution Network",
-        content: "Obsługujemy część ich sieci. GrowPoland jest bezpośredni: jeśli jest problem, stawiają mu czoła uczciwie. Ten pragmatyzm sprawia, że relacja biznesowa jest funkcjonalna i trwała.",
+        content: "GrowPoland jest bezpośredni: jeśli jest problem, stawiają mu czoła uczciwie. Ten pragmatyzm buduje trwałe relacje.",
         avatar: "https://i.pravatar.cc/150?img=34"
       }
     ],
     exportDivision: {
       badge: "W Rozwoju",
       title: "Dział Eksportu: Polska Doskonałość",
-      description: "Wprowadzając lokalną produkcję na scenę globalną, tworzymy strategiczną jednostkę biznesową.",
+      description: "Wprowadzając lokalną produkcję na scenę globalną.",
       status: "Audyt i Analiza",
       statusLabel: "Obecna Faza",
       cta: "Kontakt dla Dostawców",
       socialText: "Budowanie sieci wysokowydajnych producentów lokalnych.",
       modalTitle: "Rejestracja Polskiego Dostawcy",
-      modalDescription: "Dołącz do naszej sieci eksportowej premium. Obecnie audytujemy lokalnych producentów pod kątem ekspansji globalnej.",
+      modalDescription: "Dołącz do naszej sieci eksportowej premium.",
       formLabelProduct: "Możliwości logistyczne",
-      formPlaceholderProduct: "Opisz swoje kluczowe produkty i moce produkcyjne...",
-      securityText: "Bezpieczeństwo GrowPoland: Aktywne Szyfrowanie"
+      formPlaceholderProduct: "Opisz swoje kluczowe produkty...",
+      securityText: "Bezpieczeństwo GrowPoland: Szyfrowanie"
     },
     blogSection: {
       badge: "Biuro Prasowe",
       title: "Ostatnie Aktualizacje",
-      viewAll: "Zobacz wszystkie wiadomości",
+      viewAll: "Zobacz wszystkie",
       readMore: "Czytaj więcej"
     },
     blog: [
       {
         id: "1",
         title: "Trendy E-commerce w Europie Wschodniej 2026",
-        excerpt: "Głęboka analiza wzrostu polskiego rynku jako hubu logistycznego.",
+        excerpt: "Analiza wzrostu polskiego rynku jako hubu logistycznego.",
         date: "10 sty 2026",
         category: "Wnioski",
         image: "https://images.unsplash.com/photo-1460925895917-afdab827c52f?auto=format&fit=crop&q=80&w=800"
       },
       {
         id: "2",
-        title: "Wpływ AI na logistykę ostatniej mili",
-        excerpt: "Jak automatyzacja i algorytmy predykcyjne redefiniują globalne czasy dostaw.",
+        title: "Wpływ AI na logistykę",
+        excerpt: "Jak automatyzacja redefiniuje globalne czasy dostaw.",
         date: "28 gru 2025",
         category: "Logistyka",
         image: "https://images.unsplash.com/photo-1586528116311-ad8dd3c8310d?auto=format&fit=crop&q=80&w=800"
@@ -495,7 +515,7 @@ export const translations: Record<Language, CorporateData & { restricted: any }>
     ],
     contact: {
       title: "Budujmy razem przyszłość handlu.",
-      description: "Zainteresowany naszymi możliwościami zarządzania? Nasz zespół jest gotowy do rozmowy.",
+      description: "Zainteresowany naszymi możliwościami? Nasz zespół jest gotowy do rozmowy.",
       emailLabel: "Email Korporacyjny",
       phoneLabel: "Kontakt Cyfrowy",
       address: "Hoża 29, 00-521 Warszawa, Polska",
@@ -503,7 +523,7 @@ export const translations: Record<Language, CorporateData & { restricted: any }>
       phone: "",
       officeHours: "Pon - Pt: 09:00 - 18:00 CET",
       form: {
-        name: "Imię i Nazwisko",
+        name: "Imię",
         company: "Firma",
         email: "Email",
         message: "Wiadomość",
@@ -511,7 +531,7 @@ export const translations: Record<Language, CorporateData & { restricted: any }>
       }
     },
     footer: {
-      description: "Liderzy en strategicznym zarządzaniu e-commerce z Warszawy.",
+      description: "Liderzy w strategicznym zarządzaniu e-commerce.",
       company: "Firma",
       support: "Wsparcie",
       contact: "Kontakt",
@@ -519,11 +539,11 @@ export const translations: Record<Language, CorporateData & { restricted: any }>
         about: "O nas",
         brands: "Nasze marki",
         export: "Dział eksportu",
-        careers: "Kariera",
         news: "Biuro prasowe",
-        investors: "Inwestorzy",
         privacy: "Prywatność",
-        terms: "Warunki"
+        terms: "Warunki",
+        careers: "Kariera",
+        investors: "Inwestorzy"
       },
       madeIn: "Wykonano z doskonałością w Polsce",
       rights: "Wszelkie prawa zastrzeżone."
@@ -538,11 +558,21 @@ export const translations: Record<Language, CorporateData & { restricted: any }>
     },
     restricted: {
       title: "Dostęp Ograniczony",
-      subtitle: "Ten obszar jest przeznaczony wyłącznie dla partnerów.",
-      description: "Wprowadź swoje dane korporacyjne, aby kontynuować.",
+      subtitle: "Strefa dla partnerów GrowPoland Investment.",
+      description: "Wprowadź swoje dane korporacyjne.",
       back: "Powrót",
       badge: "Strefa Prywatna",
       error: "Nieprawidłowe dane logowania."
+    },
+    legal: {
+      privacy: {
+        title: "Polityka Prywatności",
+        content: "W GrowPoland Investment poważnie traktujemy bezpieczeństwo danych. Wszystkie informacje są szyfrowane zgodnie z RODO."
+      },
+      terms: {
+        title: "Warunki Korzystania",
+        content: "Dostęp do portalu regulują przepisy prawa handlowego Polski i Unii Europejskiej."
+      }
     }
   }
 };

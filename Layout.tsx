@@ -154,8 +154,9 @@ const Layout: React.FC<LayoutProps> = ({ children, onNavigate, currentPage, lang
             <div>
               <h4 className="font-bold text-white uppercase text-xs tracking-widest mb-6">{content.footer.support}</h4>
               <ul className="space-y-4 text-sm text-slate-400">
+                <li><button onClick={() => navigateAndClose('privacy')} className="hover:text-red-500 text-left">{content.footer.links.privacy}</button></li>
+                <li><button onClick={() => navigateAndClose('terms')} className="hover:text-red-500 text-left">{content.footer.links.terms}</button></li>
                 <li><button onClick={(e) => handleAnchorClick(e, 'news')} className="hover:text-red-500 text-left">{content.footer.links.news}</button></li>
-                <li><button className="hover:text-red-500 text-left">{content.footer.links.privacy}</button></li>
               </ul>
             </div>
 
