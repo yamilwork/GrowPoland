@@ -137,7 +137,7 @@ export const translations: Record<Language, CorporateData & { restricted: any; l
       emailLabel: "Email Corporativo",
       phoneLabel: "Atención Digital",
       address: "Hoża 29, 00-521 Varsovia, Polonia",
-      email: "corporate@growpoland.pl",
+      email: "corporate@growpoland.com",
       phone: "",
       officeHours: "Lunes - Viernes: 09:00 - 18:00 CET",
       form: {
@@ -328,7 +328,7 @@ export const translations: Record<Language, CorporateData & { restricted: any; l
       emailLabel: "Corporate Email",
       phoneLabel: "Digital Contact",
       address: "Hoża 29, 00-521 Warsaw, Poland",
-      email: "corporate@growpoland.pl",
+      email: "corporate@growpoland.com",
       phone: "",
       officeHours: "Mon - Fri: 09:00 - 18:00 CET",
       form: {
@@ -471,7 +471,7 @@ export const translations: Record<Language, CorporateData & { restricted: any; l
         author: "Elena Voronina",
         position: "Channel Partner",
         company: "Distribution Network",
-        content: "GrowPoland jest bezpośredni: jeśli jest problem, stawiają mu czoła uczciwie. Ten pragmatyzm buduje trwałe relacje.",
+        content: "GrowPoland es directo: si hay un problema, lo afrontan con honestidad. Ese pragmatismo construye relaciones duraderas.",
         avatar: "https://i.pravatar.cc/150?img=34"
       }
     ],
@@ -519,7 +519,7 @@ export const translations: Record<Language, CorporateData & { restricted: any; l
       emailLabel: "Email Korporacyjny",
       phoneLabel: "Kontakt Cyfrowy",
       address: "Hoża 29, 00-521 Warszawa, Polska",
-      email: "corporate@growpoland.pl",
+      email: "corporate@growpoland.com",
       phone: "",
       officeHours: "Pon - Pt: 09:00 - 18:00 CET",
       form: {

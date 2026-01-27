@@ -82,7 +82,7 @@ const Admin: React.FC<AdminProps> = ({ content, onBack }) => {
                     type="text" 
                     required
                     className="w-full bg-slate-900/50 border border-white/5 rounded-2xl p-4 text-white text-sm focus:outline-none focus:border-red-600 focus:ring-1 focus:ring-red-600 transition-all placeholder-slate-700"
-                    placeholder="partner.id@growpoland.pl"
+                    placeholder="partner.id@growpoland.com"
                   />
                 </div>
                 <div className="space-y-2">
