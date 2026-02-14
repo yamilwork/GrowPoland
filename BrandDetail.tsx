@@ -13,6 +13,7 @@ const BrandDetail: React.FC<BrandDetailProps> = ({ brandId, onBack, content, lan
   const brand = content.brands.find(b => b.id === brandId);
   const backLabel = lang === 'pl' ? 'Powrót' : (lang === 'en' ? 'Back' : 'Volver');
   const detailsLabel = lang === 'pl' ? 'Szczegóły marki' : (lang === 'en' ? 'Brand details' : 'Detalles de marca');
+  const nextMarketsLabel = lang === 'pl' ? 'Planowana ekspansja' : (lang === 'en' ? 'Planned expansion' : 'Expansión proyectada');
 
   if (!brand) return (
     <div className="pt-32 pb-20 container mx-auto px-6 text-center">
@@ -20,6 +21,8 @@ const BrandDetail: React.FC<BrandDetailProps> = ({ brandId, onBack, content, lan
       <button onClick={onBack} className="text-red-600 font-bold underline">Volver</button>
     </div>
   );
+
+  const isMorleyn = brand.id === 'morleyn-pet';
 
   return (
     <div className="pt-32 pb-20 bg-white min-h-screen">
@@ -49,14 +52,31 @@ const BrandDetail: React.FC<BrandDetailProps> = ({ brandId, onBack, content, lan
             </p>
             
             <div className="grid grid-cols-2 gap-10 border-t border-slate-100 pt-10">
-              <div>
+              <div className="col-span-1">
                 <h4 className="text-[10px] font-black text-slate-400 uppercase tracking-[0.2em] mb-3">{detailsLabel}</h4>
-                <div className="text-slate-950 font-bold">Premium Segment</div>
+                <div className="text-slate-950 font-bold">Contemporary Segment</div>
               </div>
-              <div>
+              <div className="col-span-1">
                 <h4 className="text-[10px] font-black text-slate-400 uppercase tracking-[0.2em] mb-3">Status</h4>
                 <div className="text-red-600 font-bold uppercase text-xs tracking-widest">{brand.market}</div>
               </div>
+              
+              {isMorleyn && (
+                <div className="col-span-2 pt-6">
+                  <h4 className="text-[10px] font-black text-slate-400 uppercase tracking-[0.2em] mb-4">{nextMarketsLabel}</h4>
+                  <div className="flex flex-wrap gap-3">
+                    {['Spain', 'USA', 'Australia', 'Germany', 'Poland'].map(m => {
+                      const localizedMarket = lang === 'es' ? (m === 'Spain' ? 'España' : (m === 'Germany' ? 'Alemania' : m)) : 
+                                             lang === 'pl' ? (m === 'Spain' ? 'Hiszpania' : (m === 'Germany' ? 'Niemcy' : (m === 'Poland' ? 'Polska' : m))) : m;
+                      return (
+                        <span key={m} className="px-4 py-2 bg-slate-50 border border-slate-100 rounded-xl text-xs font-bold text-slate-700 uppercase tracking-widest">
+                          {localizedMarket}
+                        </span>
+                      );
+                    })}
+                  </div>
+                </div>
+              )}
             </div>
 
             <div className="mt-16 flex flex-col sm:flex-row gap-6">

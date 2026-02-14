@@ -5,44 +5,44 @@ export const translations: Record<Language, CorporateData & { restricted: any; l
   es: {
     hero: {
       title: "Conectando Mercados Globales desde el Corazón de Europa",
-      subtitle: "GrowPoland Investment es un holding líder que gestiona ecosistemas de E-commerce internacionales y facilita el comercio global con eficiencia logística y visión estratégica.",
+      subtitle: "GrowPoland Investment es una compañía en expansión que desarrolla marcas de e-commerce propias, integrando proveedores globales con una operación eficiente, estructurada y enfocada en el cliente.",
       cta: "Explorar Oportunidades",
       ctaSecondary: "Conoce Nuestra Red"
     },
     about: {
-      badge: "Nuestra Filosofía",
-      title: "Agilidad Tecnológica, Compromiso Humano",
-      description: "En GrowPoland Investment, impulsamos el futuro del comercio a través de la sinergia. Integramos Inteligencia Artificial y automatización avanzada para dotar a nuestros procesos de una agilidad y precisión excepcionales en la logística global. Sin embargo, creemos que el verdadero valor reside en el equilibrio: potenciamos nuestra tecnología con el criterio y la empatía de un equipo humano que audita cada proceso y brinda un soporte cercano, asegurando que la eficiencia digital nunca comprometa la calidez del servicio.",
-      mission: "Optimizar la cadena de suministro mediante IA avanzada, garantizando que cada interacción final sea gestionada por personas comprometidas con la excelencia.",
-      vision: "Ser el puente definitivo donde la máxima velocidad tecnológica se encuentra con la responsabilidad y cercanía de un equipo humano excepcional.",
+      badge: "Nuestra Visión",
+      title: "Tecnología que impulsa marcas, personas que garantizan confianza",
+      description: "En GrowPoland Investment, nuestra visión es construir un portafolio de marcas digitales sólidas y sostenibles, desarrolladas sobre una selección rigurosa de proveedores internacionales y una gestión integral orientada a la calidad. Buscamos consolidar un modelo donde la eficiencia operativa y la supervisión humana trabajen de forma coordinada, garantizando consistencia, responsabilidad y una experiencia de cliente confiable en cada mercado donde operemos. Creemos en el crecimiento progresivo, basado en procesos claros, decisiones responsables y mejora continua, como fundamento para crear valor real y duradero.",
+      mission: "Desarrollar marcas sólidas mediante proveedores globales seleccionados y gestión integral de calidad. Garantizamos consistencia y una experiencia de cliente excelente en cada etapa del proceso.",
+      vision: "Tecnología con criterio humano para garantizar procesos eficientes, control operativo y mejora continua.",
       missionLabel: "Nuestra Propuesta",
-      visionLabel: "Sinergia Tecnológica"
+      visionLabel: "GESTIÓN Y TECNOLOGÍA"
     },
     stats: [
-      { label: "Mercados Activos", value: "12+", icon: "Globe" },
-      { label: "Marcas Gestionadas", value: "3", icon: "Briefcase" },
+      { label: "Nuevas Marcas (Proyectadas)", value: "2", icon: "Plus" },
+      { label: "Expansión de Mercados", value: "+4", icon: "TrendingUp" },
       { label: "Proveedores Activos", value: "17", icon: "Truck" },
       { label: "Productos Seleccionados", value: "600+", icon: "Package" }
     ],
     brandsSection: {
       badge: "Unidad de Negocio",
       title: "Portfolio de E-commerce",
-      description: "Gestionamos marcas globales con un enfoque en la optimización operativa y la satisfacción del cliente final.",
+      description: "Desarrollamos marcas globales de e-commerce optimizando cada proceso para garantizar la satisfacción del cliente final.",
       viewDetails: "Ver Detalles"
     },
     brands: [
       {
         id: "morleyn-pet",
         name: "Morleyn",
-        description: "Líderes en accesorios premium para mascotas. Gestionamos proveedores internacionales para el mercado de retail en el Reino Unido, con expansión a EE.UU., Australia, Alemania y Polonia.",
-        market: "Reino Unido (UK)",
+        description: "Especialistas en accesorios para mascotas. Gestionamos proveedores internacionales para el mercado del Reino Unido (UK), con planes de expansión a España, EE.UU., Australia, Alemania y Polonia.",
+        market: "Reino Unido",
         image: "https://images.unsplash.com/photo-1583337130417-3346a1be7dee?auto=format&fit=crop&q=80&w=800",
         website: "https://www.morleyn.com/"
       },
       {
         id: "aurelius-apparel",
         name: "Aurelius & Co.",
-        description: "Próxima marca de indumentaria masculina y femenina. Actualmente en fase de validación de mercado y construcción de identidad visual para el segmento premium.",
+        description: "Próxima marca de indumentaria masculina y femenina. Actualmente en fase de validación de mercado y construcción de identidad visual para el segmento contemporáneo.",
         market: "En Validación / Construcción",
         image: "https://images.unsplash.com/photo-1490481651871-ab68de25d43d?auto=format&fit=crop&q=80&w=800"
       },
@@ -196,44 +196,44 @@ export const translations: Record<Language, CorporateData & { restricted: any; l
   en: {
     hero: {
       title: "Connecting Global Markets from the Heart of Europe",
-      subtitle: "GrowPoland Investment is a leading holding company managing international E-commerce ecosystems and facilitating global trade with logistical efficiency and strategic vision.",
+      subtitle: "GrowPoland Investment is a growing company that develops its own e-commerce brands, integrating global suppliers with an efficient, structured, and customer-focused operation.",
       cta: "Explore Opportunities",
       ctaSecondary: "Our Network"
     },
     about: {
-      badge: "Our Philosophy",
-      title: "Technological Agility, Human Commitment",
-      description: "At GrowPoland Investment, we power the future of commerce through synergy. We integrate Artificial Intelligence and advanced automation to provide our processes with exceptional agility and precision in global logistics. However, we believe true value lies in balance: we enhance our technology with the judgment and empathy of an expert human team that audits every process and provides close support, ensuring that digital efficiency never compromises service warmth.",
-      mission: "To optimize the supply chain through advanced AI while ensuring every final interaction is handled by people committed to excellence.",
-      vision: "To be the ultimate bridge where maximum technological speed meets the accountability and proximity of an exceptional human team.",
+      badge: "Our Vision",
+      title: "Technology driving brands, people ensuring trust",
+      description: "At GrowPoland Investment, our vision is to build a portfolio of solid and sustainable digital brands, developed on a rigorous selection of international suppliers and comprehensive quality-oriented management. We seek to consolidate a model where operational efficiency and human supervision work in a coordinated way, ensuring consistency, responsibility, and a reliable customer experience in every market where we operate. We believe in progressive growth, based on clear processes, responsible decisions, and continuous improvement, as a foundation for creating real and lasting value.",
+      mission: "Building solid brands through selected global suppliers and comprehensive quality management. We ensure consistency and an excellent customer experience at every stage.",
+      vision: "Technology with human judgment to ensure efficient processes, operational control, and continuous improvement.",
       missionLabel: "Our Proposal",
-      visionLabel: "Tech Synergy"
+      visionLabel: "MANAGEMENT & TECHNOLOGY"
     },
     stats: [
-      { label: "Active Markets", value: "12+", icon: "Globe" },
-      { label: "Managed Brands", value: "3", icon: "Briefcase" },
+      { label: "Planned Brands", value: "2", icon: "Plus" },
+      { label: "Market Expansion", value: "+4", icon: "TrendingUp" },
       { label: "Active Suppliers", value: "17", icon: "Truck" },
       { label: "Selected Products", value: "600+", icon: "Package" }
     ],
     brandsSection: {
       badge: "Business Unit",
       title: "E-commerce Portfolio",
-      description: "We manage global brands with a focus on operational optimization and end-customer satisfaction.",
+      description: "We develop global e-commerce brands by optimizing every process to ensure end-customer satisfaction.",
       viewDetails: "View Details"
     },
     brands: [
       {
         id: "morleyn-pet",
         name: "Morleyn",
-        description: "Leaders in premium pet accessories. We manage international suppliers for the UK retail market, expanding to USA, Australia, Germany, and Poland.",
-        market: "United Kingdom (UK)",
+        description: "Specialists in pet accessories. We manage international suppliers for the United Kingdom retail market, with expansion plans to Spain, USA, Australia, Germany, and Poland.",
+        market: "United Kingdom",
         image: "https://images.unsplash.com/photo-1583337130417-3346a1be7dee?auto=format&fit=crop&q=80&w=800",
         website: "https://www.morleyn.com/"
       },
       {
         id: "aurelius-apparel",
         name: "Aurelius & Co.",
-        description: "Upcoming men's and women's apparel brand. Currently in market validation phase and building visual identity for the premium segment.",
+        description: "Upcoming men's and women's apparel brand. Currently in market validation phase and building visual identity for the contemporary segment.",
         market: "In Validation",
         image: "https://images.unsplash.com/photo-1490481651871-ab68de25d43d?auto=format&fit=crop&q=80&w=800"
       },
@@ -387,44 +387,44 @@ export const translations: Record<Language, CorporateData & { restricted: any; l
   pl: {
     hero: {
       title: "Łączenie Globalnych Rynków z Serca Europy",
-      subtitle: "GrowPoland Investment to wiodący holding zarządzający międzynarodowymi ekosystemami E-commerce i ułatwiający handel globalny.",
+      subtitle: "GrowPoland Investment to rozwijająca się firma, która tworzy własne marki e-commerce, integrując globalnych dostawców z wydajną, uporządkowaną i skoncentrowaną na kliencie działalnością.",
       cta: "Poznaj Możliwości",
       ctaSecondary: "Nasza Sieć"
     },
     about: {
-      badge: "Nasza Filozofia",
-      title: "Technologiczna Zwinność, Ludzkie Zaangażowanie",
-      description: "W GrowPoland Investment budujemy przyszłość handlu poprzez synergię. Integrujemy Sztuczną Inteligencję i zaawansowaną automatyzację, aby zapewnić naszym procesom wyjątkową zwinność i precyzję w globalnej logistyce. Wierzymy jednak, że prawdziwa wartość tkwi w równowadze: wzmacniamy naszą technologię osądem i empatią eksperckiego zespołu, który audytuje każdy proces i zapewnia bliskie wsparcie, gwarantując, że cyfrowa wydajność nigdy nie odbędzie się kosztem jakości obsługi.",
-      mission: "Optymalizacja łańcucha dostaw poprzez zaawansowaną sztuczną inteligencję przy jednoczesnym zapewnieniu, że każda interakcja jest obsługiwana przez ludzi dbających o doskonałość.",
-      vision: "Być ostatecznym pomostem, gdzie maksymalna prędkość technologiczna spotyka się z odpowiedzialnością i bliskością wyjątkowego ludzkiego zespołu.",
+      badge: "Nasza Wizja",
+      title: "Technologia napędzająca marki, ludzie gwarantujący zaufanie",
+      description: "W GrowPoland Investment naszą wizją jest budowanie portfela solidnych i zrównoważonych marek cyfrowych, opracowanych na podstawie rygorystycznego wyboru międzynarodowych dostawców i kompleksowego zarządzania zorientowanego na jakość. Dążymy do skonsolidowania modelu, w którym wydajność operacyjna i ludzki nadzór współpracują w skoordynowany sposób, zapewnząc spójność, odpowiedzialność i niezawodne doświadczenie klienta na każdym rynku, na którym działamy. Wierzymy w progresywny wzrost, oparty na jasnych procesach, odpowiedzialnych decyzjach i ciągłym doskonaleniu, jako fundament tworzenia realnej i trwałej wartości.",
+      mission: "Rozwijanie solidnych marek poprzez wyselekcjonowanych globalnych dostawców i kompleksowe zarządzanie jakością. Gwarantujemy spójność i doskonałe wrażenia klientów.",
+      vision: "Technologia z ludzkim osądem zapewniająca wydajne procesy, kontrolę operacyjną i ciągłe doskonalenie.",
       missionLabel: "Nasza Propozycja",
-      visionLabel: "Synergia Tech"
+      visionLabel: "ZARZĄDZANIE I TECHNOLOGIA"
     },
     stats: [
-      { label: "Aktywne Rynki", value: "12+", icon: "Globe" },
-      { label: "Zarządzane Marki", value: "3", icon: "Briefcase" },
+      { label: "Planowane Marki", value: "2", icon: "Plus" },
+      { label: "Ekspansja Rynkowa", value: "+4", icon: "TrendingUp" },
       { label: "Aktywni Dostawcy", value: "17", icon: "Truck" },
       { label: "Wybrane Produkty", value: "600+", icon: "Package" }
     ],
     brandsSection: {
       badge: "Jednostka Biznesowa",
       title: "Portfolio E-commerce",
-      description: "Zarządzamy globalnymi markami, koncentrując się na optymalizacji operacyjnej i satysfakcji klienta.",
+      description: "Rozwijamy globalne marki e-commerce, optymalizując każdy proces, aby zapewnić satysfakcję klienta końcowego.",
       viewDetails: "Zobacz Szczegóły"
     },
     brands: [
       {
         id: "morleyn-pet",
         name: "Morleyn",
-        description: "Liderzy w akcesoriach premium dla zwierząt. Zarządzamy międzynarodowymi dostawcami na rynek UK.",
-        market: "Wielka Brytania (UK)",
+        description: "Specjaliści od akcesoriów dla zwierząt. Zarządzamy międzynarodowymi dostawcami na rynek Wielkiej Brytanii (UK), con planami ekspansji na Hiszpanię, USA, Australię, Niemcy i Polskę.",
+        market: "Wielka Brytania",
         image: "https://images.unsplash.com/photo-1583337130417-3346a1be7dee?auto=format&fit=crop&q=80&w=800",
         website: "https://www.morleyn.com/"
       },
       {
         id: "aurelius-apparel",
         name: "Aurelius & Co.",
-        description: "Nadchodząca marka odzieży męskiej i damskiej w segmencie premium.",
+        description: "Nadchodząca marka odzieży męskiej i damskiej w segmencie współczesnym.",
         market: "W trakcie walidacji",
         image: "https://images.unsplash.com/photo-1490481651871-ab68de25d43d?auto=format&fit=crop&q=80&w=800"
       },
@@ -439,7 +439,7 @@ export const translations: Record<Language, CorporateData & { restricted: any; l
     reviewsSection: {
       badge: "Relacje Korporacyjne",
       title: "Opinie Naszej Sieci",
-      subtitle: "Stabilność GrowPoland opiera się na przestrzeganiu zasad i współpracy z profesjonalistami."
+      subtitle: "Stabilność GrowPoland opiera się na przestrzeganiu zasad i współpracy con profesjonalistami."
     },
     reviews: [
       {
@@ -471,7 +471,7 @@ export const translations: Record<Language, CorporateData & { restricted: any; l
         author: "Elena Voronina",
         position: "Channel Partner",
         company: "Distribution Network",
-        content: "GrowPoland es directo: si hay un problema, lo afrontan con honestidad. Ese pragmatismo construye relaciones duraderas.",
+        content: "GrowPoland jest bezpośredni: jeśli jest problem, stawiają mu czoła uczciwie. Ten pragmatyzm buduje trwałe relacje.",
         avatar: "https://i.pravatar.cc/150?img=34"
       }
     ],
